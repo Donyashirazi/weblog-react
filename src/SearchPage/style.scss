@@ -1,0 +1,17 @@
+.search-box {
+	padding: 12px;
+	border-radius: 20px;
+	font-size: 1.5rem;
+	border: 1px solid gray;
+	padding-left: 24px;
+	margin: 32px;
+
+	&::placeholder {
+		color: gray;
+		font-style: italic;
+	}
+
+	&:focus {
+		outline: none;
+	}
+}

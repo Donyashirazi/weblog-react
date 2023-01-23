@@ -1,0 +1,30 @@
+.container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.each-box {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 20px;
+	flex-wrap: nowrap;
+	align-items: center;
+	width: 30%;
+	background-color: rgb(10, 103, 103);
+	color: aliceblue;
+	text-decoration: none;
+	font-size: 22px;
+}
+.series-img {
+	width: 100%;
+	height: 60vh;
+	img {
+		width: 100%;
+		height: 100%;
+		background-size: contain;
+	}
+}

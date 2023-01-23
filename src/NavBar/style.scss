@@ -1,0 +1,17 @@
+.navbar {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(12, 103, 103);
+	color: rgb(228, 235, 233);
+}
+.nav {
+	border-bottom: 1px solid gray;
+	margin: 0 16px;
+	padding: 10px;
+	cursor: pointer;
+	&:hover {
+		color: gray;
+	}
+}
